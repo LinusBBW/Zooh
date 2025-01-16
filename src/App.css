@@ -1,0 +1,28 @@
+/* Main content area */
+.main-content {
+  margin-top: 60px; /* Offset for the fixed navbar */
+  margin-left: 200px; /* Offset for the fixed sidebar */
+  padding: 20px;
+  min-height: calc(100vh - 60px); /* Ensure content area respects the viewport */
+  overflow: auto;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent scrolling for the entire page */
+}
+
+/* For smaller screens, make the layout responsive */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%; /* Sidebar becomes full width */
+    height: auto;
+    position: relative; /* Sidebar is no longer fixed */
+    top: 0;
+  }
+
+  .main-content {
+    margin-left: 0; /* Remove sidebar margin */
+  }
+}
