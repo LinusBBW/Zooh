@@ -1,0 +1,269 @@
+{
+  "cards": [
+    {
+      "title": "Explore the Jungle",
+      "subtitle": "Discover the wonders of the jungle and its inhabitants.",
+      "image": "/assets/jungle.jpg",
+      "large": true
+    },
+    {
+      "title": "Conservation Efforts",
+      "subtitle": "Join us in our conservation efforts.",
+      "image": "/assets/conservation.jpg",
+      "large": false
+    },
+    {
+      "title": "Safari Adventure",
+      "subtitle": "Experience the thrill of a safari adventure.",
+      "image": "/assets/safari.jpg",
+      "large": false
+    },
+    {
+      "title": "Prices",
+      "subtitle": "Find our best deals.",
+      "image": "/assets/prices.png",
+      "large": true
+    },
+    {
+      "title": "News",
+      "subtitle": "News about the Zoo and our animals.",
+      "image": "/assets/news.jpg",
+      "large": false
+    },
+    {
+      "title": "Night Safari",
+      "subtitle": "Experience the zoo after dark with our Night Safari.",
+      "image": "/assets/night-safari.jpg",
+      "large": false
+    },
+    {
+      "title": "Aquarium",
+      "subtitle": "Explore the underwater world.",
+      "image": "/assets/aquarium.jpg",
+      "large": false
+    },
+    {
+      "title": "Bird Sanctuary",
+      "subtitle": "Discover beautiful birds in their natural habitat.",
+      "image": null,
+      "large": false
+    },
+    {
+      "title": "Reptile House",
+      "subtitle": "Meet fascinating reptiles from around the globe.",
+      "image": null,
+      "large": false
+    },
+    {
+      "title": "Kids Playground",
+      "subtitle": "Fun and games for the little ones.",
+      "image": "/assets/playground.jpg",
+      "large": true
+    },
+    {
+      "title": "Petting Zoo",
+      "subtitle": "Get up close with friendly animals.",
+      "image": "/assets/petting-zoo.jpg",
+      "large": false
+    },
+    {
+      "title": "Botanical Gardens",
+      "subtitle": "Marvel at exotic plants and flowers.",
+      "image": "/assets/botanical.jpg",
+      "large": false
+    }
+  ],
+  "news": [
+    {
+      "title": "New Otters",
+      "image": "/assets/otters.jpg",
+      "link": "/articles/new-otters",
+      "preview": "Discover our playful otters!",
+      "date": "2025-01-13"
+    },
+    {
+      "title": "Welcome Arang!",
+      "image": "/assets/orangutan.jpg",
+      "link": "/articles/welcome-arang",
+      "preview": "Meet the newest member of our zoo family!",
+      "date": "2025-01-10"
+    },
+    {
+      "title": "We’re building a new habitat!",
+      "image": "/assets/habitat.jpg",
+      "link": "/articles/new-habitat",
+      "preview": "A new sanctuary for our beloved animals!",
+      "date": "2025-01-08"
+    },
+    {
+      "title": "Welcome Arang!",
+      "image": "/assets/orangutan.jpg",
+      "link": "/articles/welcome-arang",
+      "preview": "Meet the newest member of our zoo family!",
+      "date": "2024-01-10"
+    },
+    {
+      "title": "Welcome Arang!",
+      "image": "/assets/orangutan.jpg",
+      "link": "/articles/welcome-arang",
+      "preview": "Meet the newest member of our zoo family!",
+      "date": "2023-01-10"
+    },
+    {
+      "title": "Welcome Arang!",
+      "image": "/assets/orangutan.jpg",
+      "link": "/articles/welcome-arang",
+      "preview": "Meet the newest member of our zoo family!",
+      "date": "2026-01-10"
+    }
+  ],
+  "food": [
+    {
+      "id": 1,
+      "name": "Sushi",
+      "image": "/assets/sushi.jpg",
+      "link": "/food/sushi",
+      "description": "Sushi is a traditional Japanese dish made with vinegared rice and various ingredients, such as seafood, vegetables, and occasionally tropical fruits.",
+      "details": "Sushi has a long history dating back to ancient Japan when it was originally developed as a method of preserving fish by fermenting it with rice. Today, sushi is enjoyed worldwide as a culinary art form. Popular types of sushi include Nigiri, Maki, and Sashimi. Sushi chefs are trained to perfection, ensuring each piece is both a visual and flavorful masterpiece."
+    },
+    {
+      "id": 2,
+      "name": "Tacos",
+      "image": "/assets/tacos.jpg",
+      "link": "/food/tacos",
+      "description": "Tacos are a traditional Mexican dish consisting of small hand-sized tortillas topped with a variety of fillings.",
+      "details": "Tacos offer endless customization possibilities, with popular variations such as Carne Asada, Al Pastor, and Fish Tacos. Each taco tells a story of Mexican heritage and culinary innovation, celebrated worldwide as a favorite street food."
+    },
+    {
+      "id": 3,
+      "name": "Street Food",
+      "image": "/assets/streetfood.jpg",
+      "link": "/food/streetfood",
+      "description": "Street food offers a variety of affordable and delicious meals from different cultures, served quickly and conveniently.",
+      "details": "Street food is a celebration of culture and flavor. From skewers to dumplings, it provides a unique opportunity to experience local culinary traditions. Street food is loved for its affordability, accessibility, and fresh preparation."
+    }
+  ],
+  "tickets": [
+    {
+      "id": 1,
+      "name": "Erwachsene (ab 21 Jahren)",
+      "price": 29,
+      "priceBox": 30
+    },
+    {
+      "id": 2,
+      "name": "Jugendliche (16-20 Jahre)",
+      "price": 24,
+      "priceBox": 25
+    },
+    {
+      "id": 3,
+      "name": "Kinder (6-15 Jahre)",
+      "price": 15,
+      "priceBox": 16
+    },
+    {
+      "id": 4,
+      "name": "Familientageskarte (Lebenspartner mit eigenen Kindern 6-15 Jahre)",
+      "price": 78,
+      "priceBox": 80
+    },
+    {
+      "id": 5,
+      "name": "Kinder unter 6 Jahren",
+      "price": 0,
+      "priceBox": 0,
+      "note": "gratis"
+    },
+    {
+      "id": 6,
+      "name": "IV-Bezüger mit gültigem Ausweis",
+      "price": 16,
+      "priceBox": 16,
+      "note": "online nicht erhältlich"
+    },
+    {
+      "id": 7,
+      "name": "Sunset-Ticket (ab 90 Minuten vor Zooschliessung)",
+      "price": 0,
+      "priceBox": 0,
+      "note": "40% Rabatt auf nicht rabattierte Einzeleintritte"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "test@example.com",
+      "password": "test@example.com",
+      "name": "Test User"
+    },
+    {
+      "id": "7ba0",
+      "email": "test@test.com",
+      "password": "1234",
+      "name": "test"
+    },
+    {
+      "id": "bf8e",
+      "email": "asa@asa.com",
+      "password": "1234",
+      "name": "test"
+    },
+    {
+      "id": "05d8",
+      "email": "popo@popo.com",
+      "password": "popo@popo.com",
+      "name": "popo@popo.com"
+    },
+    {
+      "id": "c37c",
+      "email": "popo@popo1.com",
+      "password": "popo@popo1.com",
+      "name": "popo@popo1.com"
+    }
+  ],
+  "purchasedTickets": [
+    {
+      "id": "3d56",
+      "userId": 1,
+      "purchaseDate": "2025-01-16T10:00:32.444Z",
+      "tickets": [
+        {
+          "ticketId": 4,
+          "name": "Familientageskarte (Lebenspartner mit eigenen Kindern 6-15 Jahre)",
+          "price": 78,
+          "purchaseDate": "2025-01-16T10:00:32.444Z",
+          "status": "valid"
+        }
+      ]
+    },
+    {
+      "id": "91e6",
+      "userId": 1,
+      "purchaseDate": "2025-01-16T10:04:34.784Z",
+      "tickets": [
+        {
+          "ticketId": 4,
+          "name": "Familientageskarte (Lebenspartner mit eigenen Kindern 6-15 Jahre)",
+          "price": 78,
+          "purchaseDate": "2025-01-16T10:04:34.784Z",
+          "status": "valid"
+        }
+      ]
+    },
+    {
+      "id": "0804",
+      "userId": 1,
+      "purchaseDate": "2025-01-16T10:05:24.712Z",
+      "tickets": [
+        {
+          "ticketId": 2,
+          "name": "Jugendliche (16-20 Jahre)",
+          "price": 24,
+          "purchaseDate": "2025-01-16T10:05:24.712Z",
+          "status": "valid"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+.food-article {
+    max-width: 1200px; /* Wider content for full-page feel */
+    margin: 50px auto;
+    padding: 30px;
+    background: linear-gradient(120deg, #fffbe6, #fff8cc);
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    color: #333;
+    line-height: 1.8;
+  }
+  

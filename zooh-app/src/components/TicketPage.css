@@ -1,0 +1,200 @@
+/* Farbpalette */
+:root {
+    --primary: #4CAF50;
+    --primary-dark: #357a3e;
+    --secondary: #78c6a3;
+    --background: #eef5eb;
+    --surface: #ffffff;
+    --text: #233237;
+    --text-secondary: #4e5d66;
+    --border: #d1dfd4;
+    --hover: #e9f2ea;
+    --accent: #f25f5c;
+}
+
+/* Hauptcontainer */
+.ticket-shop-container {
+    background-color: var(--background);
+    min-height: 100vh;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Ticket-Item-Styling */
+.ticket-item {
+    background: var(--surface);
+    border-radius: 16px;
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+    border: 1px solid var(--border);
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.ticket-item:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transform: translateY(-3px);
+}
+
+/* Ticket-Titel und Preis */
+.ticket-item h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: var(--text);
+    margin-bottom: 0.25rem;
+}
+
+.price-tag {
+    color: var(--primary);
+    font-weight: 600;
+    font-size: 1.125rem;
+}
+
+/* Kauf-Button */
+.buy-button {
+    background-color: var(--primary);
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.buy-button:hover {
+    background-color: var(--primary-dark);
+    transform: translateY(-1px);
+}
+
+.buy-button:active {
+    transform: translateY(0);
+}
+
+/* Warenkorb-Styling */
+.cart-item {
+    padding: 1rem;
+    border-radius: 12px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.cart-item:hover {
+    background-color: var(--hover);
+}
+
+.remove-button {
+    background: transparent;
+    border: none;
+    color: var(--accent);
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 50%;
+    transition: background-color 0.2s ease;
+}
+
+.remove-button:hover {
+    background-color: var(--hover);
+}
+
+/* Gesamtpreis */
+.total-price {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text);
+    margin-top: 1rem;
+}
+
+/* Aktionsbuttons */
+.action-button {
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 600;
+    border: none;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.action-button.bg-red-600 {
+    background-color: var(--accent);
+}
+
+.action-button.bg-red-600:hover {
+    background-color: #e44d4a;
+}
+
+.action-button.bg-green-600 {
+    background-color: var(--primary);
+}
+
+.action-button.bg-green-600:hover {
+    background-color: var(--primary-dark);
+}
+
+/* Header-Styling */
+h1, h2 {
+    color: var(--text);
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+h1 {
+    font-size: 1.875rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+/* Leerer Warenkorb */
+.text-gray-500 {
+    color: var(--text-secondary);
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .ticket-shop-container {
+        padding: 1rem;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+
+    .w-80 {
+        width: 100%;
+        margin-top: 1.5rem;
+        position: static;
+    }
+}
+
+/* Scrollbar-Styling */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--text-secondary);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--text);
+}
