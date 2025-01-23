@@ -6,6 +6,8 @@ Grund: Damit der json-server au port 3000 läuft.
 Danach ein zweites terminal öffnen und `npm start` eingeben.
 Das Startet unsere Zoo Applikations. Die läuft dann auf port 3001
 
+Wenn beide erfolgreich gestarten wurden einfach auf dem browser `http://localhost:3000/` öffnen
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
