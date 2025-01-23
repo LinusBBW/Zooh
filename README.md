@@ -1,9 +1,9 @@
 # Tutorial: Projekt starten
 
-Bitte zuerst "json-server --watch db.json" im terminal eingeben (stellen sie sicher dass sie sich im richtigen Verzeichnis befinden)
+Bitte zuerst `json-server --watch db.json` im terminal eingeben (stellen sie sicher dass sie sich im richtigen Verzeichnis befinden)
 Grund: Damit der json-server au port 3000 läuft.
 
-Danach ein zweites terminal öffnen und "npm start" eingeben.
+Danach ein zweites terminal öffnen und `npm start` eingeben.
 Das Startet unsere Zoo Applikations. Die läuft dann auf port 3001
 
 # Getting Started with Create React App
